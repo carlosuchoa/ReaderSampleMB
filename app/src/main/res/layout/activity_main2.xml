@@ -142,12 +142,13 @@
         android:background="#6ac9d7"
         android:digits="1234567890WXYZT"
         android:ems="10"
-        android:hint="Ind Mark"
+        android:hint="@string/ind_mark"
         android:inputType="textPersonName"
         android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/editText5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editText5"
