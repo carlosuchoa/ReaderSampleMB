@@ -61,6 +61,8 @@
     <string name="MARINHA">MARINHA</string>
     <string name="ind_mark">Ind Mark</string>
     <string name="codigo">Codigo</string>
+    <string name="botao_marinha">botao marinha</string>
+    <string name="cancela">cancela</string>
 
 
 </resources>
