@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MB- Leitor de QR Code </string>
+
+    <!-- Strings related to MainActivity-->
+    <string name="scan_barcode_button">Scan barcode</string>
+    <string name="no_barcode_captured">Nenhum barcode capturado</string>
+    <string name="barcode_error_format">"Error reading barcode: %1$s"</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="sem_code_capturado">Sem Code Capturado</string>
+    <string name="scan">SCAN</string>
+    <string name="sair">Sair</string>
+    <string name="click_scan_para_capturar_qr_code">Click SCAN para Capturar QR Code</string>
+    <string name="v_1_0_1_carlos_uchoa_p_2018">V 1.0.1 Carlos Uchoa (p) 2018</string>
+    <string name="editor">EDITOR</string>
+    <string name="save">Save</string>
+    <string name="delete">DELETE</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="gravar">GRAVAR</string>
+    <string name="smb_files">SMB FILES</string>
+    <string name="imagemsubmarino">ImagemSubmarino</string>
+    <string name="escudomarinha">EscudoMarinha</string>
+    <string name="v1_1_carlos_uchoa_p_2018">V1.1 carlos uchoa (p) 2018</string>
+    <string name="nomecogesn">NomeCOGESN</string>
+    <string name="myAlphaNumeric">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="marinha">Marinha</string>
+    <string name="nome_do_arquivo_s_extens_o">NOME DO ARQUIVO S/ EXTENSÃO</string>
+    <string name="arquivo_para_gravar">Arquivo para gravar</string>
+    <string name="nome_do_arquivo">Nome do Arquivo</string>
+    <string name="editor_oculto">Editor oculto</string>
+    <string name="bigrama">BIGRAMA</string>
+    <string name="escudomb">EscudoMB</string>
+    <string name="editor_de_arquivo_csv">Editor de Arquivo CSV</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="title_activity_login">COGESN LOGIN</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">"Nome, NIP "</string>
+    <string name="prompt_password">"Password "</string>
+    <string name="action_sign_in">Entre</string>
+    <string name="action_sign_in_short">Entre</string>
+    <string name="error_invalid_email">Nome invalido</string>
+    <string name="error_invalid_password">Password muito curta</string>
+    <string name="error_incorrect_password">Password incorreta</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="tab_text_0">SAT</string>
+    <string name="tab_text_1">HAT</string>
+    <string name="tab_text_2">HCT</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="procura">Procura</string>
+    <string name="MARINHA">MARINHA</string>
+
+
+</resources>
+
