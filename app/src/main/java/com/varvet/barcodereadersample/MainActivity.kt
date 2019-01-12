@@ -10,7 +10,6 @@
  * adquiridos em construção de plataformas marítimas.
  *
  ***********************************************************/
-
 package com.varvet.barcodereadersample
 
 import android.content.Intent
