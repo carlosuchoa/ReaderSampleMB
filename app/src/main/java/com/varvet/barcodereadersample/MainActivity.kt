@@ -1,3 +1,16 @@
+/**********************************************************
+ *
+ * NOME FANTASIA: MBQRCode
+ * AUTOR: Carlos Uchoa
+ * DATE : 04/06/2018
+ * VERSION: 1.3.5 08/01/2019
+ * RETURN: NULL
+ *
+ * Este App utiliza a biblioteca barcodeReadersample para criar um gerenciador de documentos e arquivos de codigos
+ * adquiridos em construção de plataformas marítimas.
+ *
+ ***********************************************************/
+
 package com.varvet.barcodereadersample
 
 import android.content.Intent
@@ -77,9 +90,6 @@ class MainActivity : AppCompatActivity() {
     //val file = "%1\$tY%1\$tm%1\$td%1\$tH%1\$tM%1\$tS.csv".format(Date()) // Colocando a data no nome do arquivo
     //val file = "MB_"+"%1\$tY%1\$tm%1\$td%1\$tH%1\$tM.csv".format(Date())
 
-
-
-
     var file = "MBDadosQR.csv" // nome do arquivo
     var name1 = ""
     var nometotal:String = ""
@@ -89,16 +99,14 @@ class MainActivity : AppCompatActivity() {
         val permissionsExtLeitura = arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE)
         val permissionsExtEscrita = arrayOf(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
-
-
-    //@TargetApi   (Build.VERSION_CODES.LOLLIPOP)
+    //@TargetApi   (Build.VERSION_CODES.LOLLIPOP) // Uchoa Se for necessário colocar esta versão de Android
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
 
 
-        /* sera usada pra criar uma tela inicial no fururo
+        /* sera usada pra criar uma tela inicial no futuro tipo Splash Screeen
         setContentView(R.layout.activity_splash_screen)
         */
 
@@ -106,8 +114,6 @@ class MainActivity : AppCompatActivity() {
         //Entra a tela de login antes de tudo
         val MyLogin = Intent(getApplicationContext(),LoginActivity::class.java)
         startActivity(MyLogin)
-
-
 
         setContentView(R.layout.activity_main)
         //permissão somente para desemvolvimento. Em produção deve ser retirado
@@ -119,8 +125,6 @@ class MainActivity : AppCompatActivity() {
 
         editText3.setVisibility(View.INVISIBLE)
         frameLayout.setVisibility(View.INVISIBLE)
-
-
 
         mResultTextView = findViewById(R.id.result_textview)
         TextView2 = findViewById(R.id.editText2)
@@ -140,7 +144,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+/* UCHOA */
 /* função paara criar no futuro uma tela inicial para o aplicativo. O intent tem que ter uma nova class a ser
    ainda criada que sera chamada quando iniciar o programa. AINDA TEMOS QUE COLOCAR UM DELAY
    como por exemplo:
