@@ -104,7 +104,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
 
-        android:text="V1.3.5 Carlos Uchoa (p) 2018"
+        android:text="@string/v1_3_5_carlos_uchoa_p_2018"
         android:textSize="18sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
