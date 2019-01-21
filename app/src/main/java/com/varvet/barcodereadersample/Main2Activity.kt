@@ -87,8 +87,8 @@ class Main2Activity : AppCompatActivity() {
         editText.background.setColorFilter(Color.rgb(106,201,215), PorterDuff.Mode.SRC_ATOP);
         editText5.background.setColorFilter(Color.rgb(106,201,215), PorterDuff.Mode.SRC_ATOP);
         /*****************************************/
-        imageView4.visibility = View.VISIBLE // aparece o papagaio
-        imageView5.visibility = View.VISIBLE
+        imageView4.visibility = View.INVISIBLE // era aparece o papagaio agora deixei invisivel para teste no futuro
+        imageView5.visibility = View.INVISIBLE
 
         val intRecebedora = getIntent() //Recebendo da outra tela Intent
         val parametros = intRecebedora.getExtras()
@@ -291,8 +291,8 @@ class Main2Activity : AppCompatActivity() {
         val intRecebedora = getIntent() //Recebendo da outra tela Intent
         val parametros = intRecebedora.getExtras()
         // apaga os papagaios
-        imageView4.visibility = View.VISIBLE
-        imageView5.visibility = View.VISIBLE
+        imageView4.visibility = View.INVISIBLE
+        imageView5.visibility = View.INVISIBLE
         // Compoe a string dos 2 campos de entrada e coloca , no meio
         Composto = editText.getText().toString() + "," + editText5.getText().toString() + "\n"
 
