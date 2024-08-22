@@ -12,6 +12,7 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
 import com.varvet.barcodereadersample.R
 
+
 class Utility {
 
     private val MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 123
